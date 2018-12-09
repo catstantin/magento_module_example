@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Mobilunity\MagentoSample\Api\Data\SampleDataInterface"
+                type="Mobilunity\MagentoSample\Model\SampleData"/>
+
+    <preference for="Mobilunity\MagentoSample\Api\SampleDataRepositoryInterface"
+                type="Mobilunity\MagentoSample\Model\SampleDataRepository"/>
+</config>
